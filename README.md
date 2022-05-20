@@ -1,6 +1,6 @@
-# Project Description
+### From [App Ideas](https://github.com/florinpop17/app-ideas)
 
-Idea from in [App Ideas](https://github.com/florinpop17/app-ideas)
+# Project Description
 
 **Tier:** 1-Beginner
 
