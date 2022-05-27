@@ -43,9 +43,9 @@ function App() {
   }, [bitArray]);
 
   return (
-    <div className="App">
+    <div className="app">
       <button
-        className={bitArray[0] ? "ButtonOn" : "ButtonOff"}
+        className={bitArray[0] ? "button on" : "button off"}
         onClick={() => {
           let newArray = bitArray;
           newArray[0] = !bitArray[0];
@@ -55,7 +55,7 @@ function App() {
         {renderedBits[0]}
       </button>
       <button
-        className={bitArray[1] ? "ButtonOn" : "ButtonOff"}
+        className={bitArray[1] ? "button on" : "button off"}
         onClick={() => {
           let newArray = bitArray;
           newArray[1] = !bitArray[1];
@@ -65,7 +65,7 @@ function App() {
         {renderedBits[1]}
       </button>
       <button
-        className={bitArray[2] ? "ButtonOn" : "ButtonOff"}
+        className={bitArray[2] ? "button on" : "button off"}
         onClick={() => {
           let newArray = bitArray;
           newArray[2] = !bitArray[2];
@@ -75,7 +75,7 @@ function App() {
         {renderedBits[2]}
       </button>
       <button
-        className={bitArray[3] ? "ButtonOn" : "ButtonOff"}
+        className={bitArray[3] ? "button on" : "button off"}
         onClick={() => {
           let newArray = bitArray;
           newArray[3] = !bitArray[3];
@@ -85,7 +85,7 @@ function App() {
         {renderedBits[3]}
       </button>
       <button
-        className={bitArray[4] ? "ButtonOn" : "ButtonOff"}
+        className={bitArray[4] ? "button on" : "button off"}
         onClick={() => {
           let newArray = bitArray;
           newArray[4] = !bitArray[4];
@@ -95,7 +95,7 @@ function App() {
         {renderedBits[4]}
       </button>
       <button
-        className={bitArray[5] ? "ButtonOn" : "ButtonOff"}
+        className={bitArray[5] ? "button on" : "button off"}
         onClick={() => {
           let newArray = bitArray;
           newArray[5] = !bitArray[5];
@@ -105,7 +105,7 @@ function App() {
         {renderedBits[5]}
       </button>
       <button
-        className={bitArray[6] ? "ButtonOn" : "ButtonOff"}
+        className={bitArray[6] ? "button on" : "button off"}
         onClick={() => {
           let newArray = bitArray;
           newArray[6] = !bitArray[6];
@@ -115,7 +115,7 @@ function App() {
         {renderedBits[6]}
       </button>
       <button
-        className={bitArray[7] ? "ButtonOn" : "ButtonOff"}
+        className={bitArray[7] ? "button on" : "button off"}
         onClick={() => {
           let newArray = bitArray;
           newArray[7] = !bitArray[7];
@@ -125,7 +125,7 @@ function App() {
         {renderedBits[7]}
       </button>
 
-      <div className="Decimal">{decimal}</div>
+      <div className="decimal">{decimal}</div>
     </div>
   );
 }

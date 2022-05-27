@@ -1,37 +1,40 @@
-.App {
+.app {
   text-align: center;
-  margin: 40% 100px;
+  margin: 40vh 100px;
 }
 
-.App .ButtonOn {
+.app .button {
   margin: 5px;
   padding: 10px 25px 10px 25px;
   font-family: monospace;
   font-size: 60px;
+  border-radius: 10px;
+  border: none;
+}
+
+.app .on {
   background-color: #97CC04;
-  border-radius: 10px;
-  border: none;
 }
 
-.App .ButtonOn:hover {
+.app .on {
+  background-color: #97CC04;
+}
+
+.app .on:hover {
   background-color: #76a100;
+  cursor: pointer;
 }
 
-.App .ButtonOff {
-  margin: 5px;
-  padding: 10px 25px 10px 25px;
-  font-family: monospace;
-  font-size: 60px;
+.app .off {
   background-color: #F45D01;
-  border-radius: 10px;
-  border: none;
 }
 
-.App .ButtonOff:hover {
+.app .off:hover {
   background-color: #c54c00;
+  cursor: pointer;
 }
 
-.App .Decimal {
+.app .decimal {
   font-family: monospace;
   font-size: 100px;
   box-shadow: inset;
